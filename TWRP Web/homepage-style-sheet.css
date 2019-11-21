@@ -1,0 +1,316 @@
+html{ background-color: rgb(31, 25,27);
+    
+}
+.background{
+    height: 800px;
+    width: 1280px;
+}
+
+
+
+.images3{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+.images4{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+.images5{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+.images6{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+    top: 500px;
+    left:425px
+}
+.images7{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+    top: 500px;
+    left: 675px
+}
+.background2{
+    height: 800px;
+    width: 1280px;
+    position: absolute;
+    z-index: 0;
+
+}
+firstimage {
+    top: 100px;
+}
+
+
+.homebutt{
+    background-color:gray;
+     border: none;
+    color: white;
+     border-radius: 8px;
+    font-size: 22px;
+    top: 15px;
+    left: 1200px;
+    position: absolute;
+}
+
+.button{
+    background-color:gray;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    margin: 6px 12px;
+    padding: 25px;
+    top: -220px;
+    left: 290px;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color:mediumpurple;
+}
+
+p{
+    font-size: 16pt;
+    color: white;
+    font-family: sans-serif
+    
+}
+.description{
+    width: 460px;
+    position: relative;
+    top:-750px;
+    left:780px;
+    background-color: ;
+    font-size: 10pt;
+}
+.description2{
+    width: 450px;
+    position: relative;
+    top:-700px;
+    left:80px;
+    background-color:;
+    opacity:inheri
+}
+.wordswords{
+    
+    font-size: 16pt
+}
+.page{}
+.dropbtn {
+   background-color:gray;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    margin: 6px 12px;
+    padding: 25px;
+        top: -220px;
+    left: 290px;
+    border-radius: 8px;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: -132px;
+    left: 330px;
+  z-index: 1;
+    font-family: sans-serif;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;
+position:relative;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:mediumpurple;
+    position:relative;
+}
+.pic1{
+    height: 120px;
+    width:;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 50%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+    background-color:;
+    font
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+    position:fixed
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(10, 500px);
+    grid-template-rows: repeat(10, 200px);
+    grid-gap: 15px;
+    z-index: 1;
+}
+.galleryitem{
+    z-index: 1;
+}
+.galleryitem1{
+    grid-column-start:2 ;
+    grid-column-end: ;
+    grid-row-start: 2;
+    z-index: 1;
+    object-fit: cover;
+}
+.galleryitem2{
+    grid-column-start:3 ;
+    grid-column-end: ;
+    grid-row-start:2 ;
+    z-index: 1
+}
+.galleryitem3{
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    z-index: 1
+}
+.galleryitem4{
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    z-index: 1
+}
+.galleryitem5{
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    z-index: 1
+}
+
+
+ul{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    position: absolute
+    
+}
+.ep{
+    top: 200px;
+    left: 200px
+}
+.albums{
+    top: 200px;
+    left: 720px
+}
+.singles{
+    top:330px;
+    left: 720px
+    
+}
+.compilations{
+    top: 420px;
+    left: 200px
+}
+.solo{
+    top: 420px;
+    left: 720px;
+}
+.collabs{
+   top: 550px;
+    left: 200px;
+}
+.lordname{
+    z-index: 1;
+    position: absolute;
+    width: 500px;
+    top: 0px;
+}

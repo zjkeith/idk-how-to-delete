@@ -1,0 +1,8 @@
+<!doctype html>
+<html>
+    <link href="homepage-style-sheet.css" rel="stylesheet">
+    <head>
+    <title>Gallery</title>
+    </head>
+    <body>
+    <img id="background2" class="background2" src="Images/GalleryA.jpg">
